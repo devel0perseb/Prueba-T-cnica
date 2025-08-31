@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro Programa de Fidelidad</title>
+    <link rel="stylesheet" href="./css/Formulario.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="background">
+        <div class="background-text line1">
+            American Eagle • Chevignon • Esprit • Naf Naf • Rifle •
+        </div>
+        <div class="background-text line2">
+            American Eagle • Chevignon • Esprit • Naf Naf • Rifle •
+        </div>
+        <div class="background-text line3">
+            American Eagle • Chevignon • Esprit • Naf Naf • Rifle •
+        </div>
+         <div class="background-text line1">
+            American Eagle • Chevignon • Esprit • Naf Naf • Rifle •
+        </div>
+        <div class="background-text line2">
+            American Eagle • Chevignon • Esprit • Naf Naf • Rifle •
+        </div>
+        <div class="background-text line3">
+            American Eagle • Chevignon • Esprit • Naf Naf • Rifle •
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="logo">
+            <img src="img/logo.png.png" alt="Logo GCO">
+        </div>
+
+        <h2>Registro Programa de Fidelidad</h2>
+        <form>
+    <div class="form-grid">
+      <div class="form-column">
+        <label for="tipoId">Tipo de identificación:</label>
+        <select id="tipoId" name="tipoId">
+          <option>Cédula</option>
+          <option>Pasaporte</option>
+        </select>
+
+        <label for="numeroId">Número de identificación:</label>
+        <input type="text" id="numeroId" placeholder="Ingrese su número">
+
+        <label for="nombres">Nombres:</label>
+        <input type="text" id="nombres" placeholder="Ej: Juan">
+
+        <label for="apellidos">Apellidos:</label>
+        <input type="text" id="apellidos" placeholder="Ej: Pérez">
+
+        <label for="fecha">Fecha de nacimiento:</label>
+        <input type="date" id="fecha">
+      </div>
+
+      <div class="form-column">
+        <label for="direccion">Dirección:</label>
+        <input type="text" id="direccion" placeholder="Ej: Calle 123 #45-67">
+
+        <label for="pais">País:</label>
+        <select id="pais">
+          <option>Colombia</option>
+          <option>México</option>
+        </select>
+
+        <label for="departamento">Departamento:</label>
+        <input type="text" id="departamento">
+
+        <label for="ciudad">Ciudad:</label>
+        <input type="text" id="ciudad">
+
+        <label for="marca">Marca:</label>
+        <select id="marca">
+          <option>Americanino</option>
+          <option>MNG</option>
+          <option>Chevignon</option>
+        </select>
+      </div>
+    </div>
+<div class="boton-container">
+  <div class="light-button">
+    <button type="submit" class="bt">
+      <div class="button-holder">
+        <img src="./img/logo.png.png" alt="Logo GCO" class="logo-gco">
+        <span>Registrar</span>
+      </div>
+
+     
+    </button>
+  </div>
+</div>
+
+
+  </form>
+    </div>
+
+    <script src="./js/Formulario.js"></script>
+</body>
+
+</html>
